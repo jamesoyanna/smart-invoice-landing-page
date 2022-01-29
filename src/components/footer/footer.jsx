@@ -11,14 +11,11 @@ class Footer extends Component {
   state = {
     links: [
       { link: "#", title: "About Us" },
-      { link: "#", title: "Blog" },
-      { link: "#", title: "Find A Doctor" },
+      { link: "#", title: "Send Invoice" },
     ],
     links2: [
       { link: "#", title: "Pricing" },
       { link: "#", title: "Register" },
-      { link: "#", title: "Forum" },
-      { link: "#", title: "Login" }
     ],
   };
   render() {
@@ -29,10 +26,9 @@ class Footer extends Component {
             <Row>
               <Col lg={4} sm={6}>
                 <div>
-                  <h5 className="mb-4 footer-list-title">About Confyde</h5>
+                  <h5 className="mb-4 footer-list-title">About Smart Invoice</h5>
                   <p>
-                    Confyde is an health care solution provider. We provide
-                    affordable quality health care services{" "}
+                    Go Paperless! Get Paid Faster!! Simple And Easy-to-use Online Invoicing Software for Small Business Owners &
                   </p>
                 </div>
               </Col>
@@ -85,7 +81,7 @@ class Footer extends Component {
                         />
                       </i>
                       <Media body>
-                        <p>info@confyde.com</p>
+                        <p>info@smartinvoice.com</p>
                       </Media>
                     </Media>
                     <Media>

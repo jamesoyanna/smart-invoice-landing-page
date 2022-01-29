@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import BannerSection from "./Banner/BannerSection";
 import Services from "./services/Services";
 import AskQuestion from "./askQuestion/askQuestion";
-import DownloadSection from "./downloadSection/downloadSection";
-import Testimonial from "./testimonial/testimonial";
-import Blog from "./blog section/blog";
 import Footer from "./footer/footer";
 
 class AppContainer extends Component {
@@ -39,13 +36,6 @@ class AppContainer extends Component {
             <Services />
             {/* Importing Ask Question section */}
             <AskQuestion />
-            {/* Importing Download section */}
-            <DownloadSection />
-            {/*Importing Testimonial section */}
-            <Testimonial />
-
-            {/* Importing Blog */}
-            <Blog />
             {/* Importing Footer */}
             <Footer />
           </>

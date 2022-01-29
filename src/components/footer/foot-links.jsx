@@ -20,7 +20,7 @@ class FooterLinks extends Component {
                 </div>
                 <div className="float-sm-right mt-4 mt-sm-0">
                   <p className="copyright-desc text-white mb-0">
-                    {new Date().getFullYear()} © Confyde. All rights Reserved 
+                    {new Date().getFullYear()} © Smart Invoice. All rights Reserved 
                   </p>
                 </div>
               </Col>

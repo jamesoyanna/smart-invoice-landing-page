@@ -12,13 +12,13 @@ class Services extends Component {
       services: [
         {
           icon: "search",
-          title: "Search for a doctor",
-          desc: "Same-day appointments, in-person or remote, that start on time",
+          title: "Grow your revenue",
+          desc: "Easily grow your revenue. With Invoice, staying on top of your business financing has never been easier.",
         },
         {
           icon: "message-square",
-          title: "Easy Chat",
-          desc: "Unlimited 24/7 Video Chats with our virtual medical team at no extra cost",
+          title: "Get more productive",
+          desc: "Set up automatic payment reminders to gently remind clients when a payment is coming up, due, or late.",
         },
         {
           icon: "map-pin",
