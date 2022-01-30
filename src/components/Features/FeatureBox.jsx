@@ -1,7 +1,8 @@
 import React from "react";
 import { Row, Col, Button } from "reactstrap";
 import FeatherIcon from "feather-icons-react";
-const askQuestionBox = (props) => {
+
+const FeatureBox = (props) => {
     return (
             <>
                 <h3 style={{color: '#0b9444'}}>{props.title}</h3>
@@ -31,7 +32,7 @@ const askQuestionBox = (props) => {
         );
 }
 
-export default askQuestionBox;
+export default FeatureBox;
 
 
 

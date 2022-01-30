@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+ import React from 'react';
 import { Link } from "react-router-dom";
 import {
   Navbar,
@@ -6,10 +6,13 @@ import {
 } from "react-bootstrap";
 //import images
 import LogoImg from "../../assets/images/logo/smart-lgo.png";
-class NavBar extends Component {
-  render() {
-    return (
-      <>
+
+
+
+ 
+ const NavBar = () => {
+   return (
+     <>
         <Navbar
           collapseOnSelect
           expand="lg"
@@ -17,7 +20,7 @@ class NavBar extends Component {
           bg="light"
           variant="light"
         >
-          <Link to="/home">
+          <Link to="/">
             <Navbar.Brand to="/home">
               <img src={LogoImg} alt="smart invoice" />
             </Navbar.Brand>
@@ -36,8 +39,10 @@ class NavBar extends Component {
           </Navbar.Collapse>
         </Navbar>
       </>
-    );
-  }
-}
+   );
+ }
+ export default NavBar;
+ 
 
-export default NavBar;
+
+

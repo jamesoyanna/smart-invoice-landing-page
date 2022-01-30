@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
-import { Link } from "react-router-dom";
 
 //Import Section Title
 import SectionTitle from "../common/section-title";
