@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 //Import Images
 import bg1 from "../../assets/images/bg-1.png";
@@ -25,13 +24,10 @@ class BannerSection extends Component {
                   <p>Professional and Easy-to-use Online Invoicing Software for Startups, Business Owners and Freelancers.</p>
 
                   <div className="mt-4 rounded">
-                    <Link
-                      to="/getting-started"
-                      className="btn btn-primary mt-2 mr-2"
-                      style={{ borderRadius: "20px" }}
-                    >
-                      Geting Started
-                    </Link>
+                 <a style={{ borderRadius: "20px" }} className="btn btn-primary mt-2 mr-2" href="https://smart-invoice.netlify.app/login" target="_blank" rel="noreferrer noopener">
+                    Geting Started
+                 </a>
+
                   </div>
                 </div>
               </Col>

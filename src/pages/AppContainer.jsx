@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import BannerSection from "./Banner/BannerSection";
-import Services from "./services/Services";
-import AskQuestion from "./askQuestion/askQuestion";
-import Footer from "./footer/footer";
+import BannerSection from "../components/Banner/BannerSection";
+import Services from "../components/services/Services";
+import AskQuestion from "../components/Features/Features";
+import Footer from "../components/footer/footer";
 
 class AppContainer extends Component {
     state = {

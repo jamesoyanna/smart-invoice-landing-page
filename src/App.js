@@ -1,7 +1,6 @@
 import React from "react"
-import AppContainer from "./components/AppContainer";
+import AppContainer from "./pages/AppContainer";
 import { Redirect, Route,Switch } from "react-router-dom";
-import GettingStarted from "./pages/GettingStarted";
 import NavBar from "./components/Navbar/NavBar";
 import "./App.css";
 //import Scss
@@ -13,8 +12,7 @@ function App() {
     <>
       <NavBar />
       <Switch>
-        <Route path="/getting-started" component={GettingStarted} />
-        <Route path="/home" component={AppContainer} />
+        <Route path="/" component={AppContainer} />
         <Redirect from="/" exact to="home" />
       </Switch>
     </>
