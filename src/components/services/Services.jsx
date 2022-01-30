@@ -59,7 +59,7 @@ class Services extends Component {
             <Row className="mt-4">
               <Col lg={12}>
                 <div className="text-center">
-                   <a className="btn btn-primary" href="https://smart-invoice.netlify.app/login" target="_blank" rel="noreferrer noopener">
+                   <a className="btn btn-primary" href="https://app-smart-invoice.netlify.app/login" target="_blank" rel="noreferrer noopener">
                     Geting Started
                  </a>
                 </div>

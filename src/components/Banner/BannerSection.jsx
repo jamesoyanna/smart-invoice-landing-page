@@ -24,7 +24,7 @@ class BannerSection extends Component {
                   <p>Professional and Easy-to-use Online Invoicing Software for Startups, Business Owners and Freelancers.</p>
 
                   <div className="mt-4 rounded">
-                 <a style={{ borderRadius: "20px" }} className="btn btn-primary mt-2 mr-2" href="https://smart-invoice.netlify.app/login" target="_blank" rel="noreferrer noopener">
+                 <a style={{ borderRadius: "20px" }} className="btn btn-primary mt-2 mr-2" href="https://app-smart-invoice.netlify.app/login" target="_blank" rel="noreferrer noopener">
                     Geting Started
                  </a>
 
