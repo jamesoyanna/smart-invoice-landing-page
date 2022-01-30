@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f361e03.chunk.css",
-    "main.js": "/static/js/main.b656d143.chunk.js",
-    "main.js.map": "/static/js/main.b656d143.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
-    "static/js/2.763b34e5.chunk.js": "/static/js/2.763b34e5.chunk.js",
-    "static/js/2.763b34e5.chunk.js.map": "/static/js/2.763b34e5.chunk.js.map",
+    "main.css": "/static/css/main.d404772e.chunk.css",
+    "main.js": "/static/js/main.747f9165.chunk.js",
+    "main.js.map": "/static/js/main.747f9165.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7d95d06f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7d95d06f.js.map",
+    "static/js/2.65221eae.chunk.js": "/static/js/2.65221eae.chunk.js",
+    "static/js/2.65221eae.chunk.js.map": "/static/js/2.65221eae.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.181181e82afb7e50b5e500e9c460b89c.js": "/precache-manifest.181181e82afb7e50b5e500e9c460b89c.js",
+    "precache-manifest.716868d327d681be0f1da0fe44021531.js": "/precache-manifest.716868d327d681be0f1da0fe44021531.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.763b34e5.chunk.js.LICENSE.txt": "/static/js/2.763b34e5.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "static/css/main.d404772e.chunk.css.map": "/static/css/main.d404772e.chunk.css.map",
+    "static/js/2.65221eae.chunk.js.LICENSE.txt": "/static/js/2.65221eae.chunk.js.LICENSE.txt",
+    "static/media/bg-1.png": "/static/media/bg-1.a6007911.png",
+    "static/media/faetures.svg": "/static/media/faetures.88906a12.svg",
+    "static/media/invoice.png": "/static/media/invoice.775ca534.png",
+    "static/media/materialdesignicons.min.css": "/static/media/materialdesignicons-webfont.a32fa1f2.eot",
+    "static/media/smart-lgo.png": "/static/media/smart-lgo.cba5d0ae.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.83c3e0c4.js",
-    "static/js/2.763b34e5.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.b656d143.chunk.js"
+    "static/js/runtime-main.7d95d06f.js",
+    "static/js/2.65221eae.chunk.js",
+    "static/css/main.d404772e.chunk.css",
+    "static/js/main.747f9165.chunk.js"
   ]
 }
