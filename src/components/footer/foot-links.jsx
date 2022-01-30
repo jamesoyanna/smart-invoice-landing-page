@@ -3,13 +3,17 @@ import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 
 //Import Images
-import logo from "../../assets/images/logo/favicon.png";
+import logo from "../../assets/images/logo/smart-lgo.png";
+
+
+ 
+
 
 class FooterLinks extends Component {
   render() {
     return (
       <>
-        <section className="bg-primary py-3">
+        <section style={{background: "#fff"}} className="py-3">
           <Container>
             <Row>
               <Col lg={12}>
@@ -19,7 +23,7 @@ class FooterLinks extends Component {
                   </Link>
                 </div>
                 <div className="float-sm-right mt-4 mt-sm-0">
-                  <p className="copyright-desc text-white mb-0">
+                  <p className="copyright-desc text-dark mb-0">
                     {new Date().getFullYear()} © Smart Invoice. All rights Reserved 
                   </p>
                 </div>

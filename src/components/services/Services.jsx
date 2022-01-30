@@ -22,24 +22,24 @@ class Services extends Component {
         },
         {
           icon: "map-pin",
-          title: "Locate Us",
+          title: "Create multicurrency invoices",
           desc:
-            "Convenient locations with drop-in labs across Africa",
+            "Send invoices to your customers in their currency, make base currency adjustments, and easily analyze the revalued balances.",
         },
         {
           icon: "book",
-          title: "Book an appointment",
-          desc: "Easy appointment booking with a doctor in seconds.",
+          title: "Print and share invoice with ease",
+          desc: "Sharing invoices is effortless. Print out a copy, or simply email them.",
         },
         {
           icon: "info",
-          title: "Diagnosis & test",
-          desc: "Easy access to COVID-19 testing and care.",
+          title: "Real-time invoice reports",
+          desc: "Run real-time reports on your sales, expenses and tax summary.",
         },
         {
           icon: "activity",
-          title: "Rapid response",
-          desc: "Our experts will help get quality healthcare",
+          title: "Your Finances In One Place",
+          desc: "Enjoy a fully-featured suite of customizable business reports and summaries",
         },
       ],
     };
@@ -50,9 +50,9 @@ class Services extends Component {
         <section className="section bg-light" id="services">
           <Container>
             <SectionTitle
-              subtitle="Services"
-              title="What We do"
-              desc="We provide quality health care service using innovative technology."
+              subtitle="Beautiful invoicing software"
+              title="Invoice, the smart way"
+              desc="Invoice Software that lets you send professional invoices, automate payment reminders, and accept card payments online, faster than ever!."
             />
             <Row>
               <ServiceBox services={this.state.services} />
@@ -60,9 +60,9 @@ class Services extends Component {
             <Row className="mt-4">
               <Col lg={12}>
                 <div className="text-center">
-                  <Link to="#" className="btn btn-primary">
-                    View more
-                  </Link>
+                   <a className="btn btn-primary" href="https://smart-invoice.netlify.app/login" target="_blank" rel="noreferrer noopener">
+                    Geting Started
+                 </a>
                 </div>
               </Col>
             </Row>

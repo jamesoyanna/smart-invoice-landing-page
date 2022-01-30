@@ -1,20 +1,20 @@
 import React, { Component } from "react";
-import { Container, Row, Col, Card, CardBody, Button} from "reactstrap";
+import { Container, Row, Col, Card, CardBody} from "reactstrap";
 
 import AskQuestionBox from "./askQuestionBox";
 //Import Images
-import questionImg from "../../assets/images/askQuestion/askQuestion.png";
+import questionImg from "../../assets/images/askQuestion/faetures.svg";
 
 
 class AskQuestion extends Component {
         state = {
             questions: [
-                { title: "Pregnancy related issues" },
-                { title: "COVID-19 health concerns" },
-                { title: "Child maternity healthcare" },
-                { title: "Anti-natal care" },
-                { title: "Mental Health cases" },
-                { title: "Injury & violence" },
+                { title: "Brand your invoice" },
+                { title: "View invoice history and keep track of changes" },
+                { title: "Track invoice and payments with ease" },
+                { title: "Need a physical copy? Invoices can be printed or downloaded as PDF" },
+                { title: "Send invoice to clients via E-mail with ease" },
+                { title: "Go Paperless! Get Paid Faster" },
             ],
         }
 
@@ -24,20 +24,13 @@ class AskQuestion extends Component {
                 <section className="section" id="features">
                     <Container>
                         <Row className="justify-content-center">
-                            <Col lg={8}> 
-                            <div className="text-center mb-5">
-                                    <Button outline color="primary" style={{ borderRadius: "20px", width: "170px", height: "40px"}}
-                                 >
-                        Learn More
-                      </Button>
-                         </div>
-                        </Col>
+                           
                          </Row>
                         
                         <Row> 
                             <Col lg={5}>
                                 <div>
-                                <AskQuestionBox  title="Ask A Question about any health concern" renderQuestions={this.state.questions} desc="We understand your health needs and we are very open to any of your health related questions." link="#" />
+                                <AskQuestionBox  title="Amazing features you can use" renderQuestions={this.state.questions} desc="Your Business. Your Clients. One Free, Powerful Invoicing Platform." link="#" />
                                 </div>
                             </Col>
                             <Col lg={7} sm={8} className="ml-lg-auto">

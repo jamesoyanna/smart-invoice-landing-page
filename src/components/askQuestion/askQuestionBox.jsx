@@ -4,7 +4,7 @@ import FeatherIcon from "feather-icons-react";
 const askQuestionBox = (props) => {
     return (
             <>
-                <h3>{props.title}</h3>
+                <h3 style={{color: '#0b9444'}}>{props.title}</h3>
                 <p className="mb-4">{props.desc}</p>
                 <Row>
                     {
@@ -24,7 +24,7 @@ const askQuestionBox = (props) => {
                 <div className="mt-4">
                     <Button outline color="primary" style={{ borderRadius: "20px", width: "170px", height: "40px" }}
                     >
-                        View All Specialties
+                        Learn More
                       </Button>
                 </div>
             </>

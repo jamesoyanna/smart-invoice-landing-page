@@ -1,16 +1,9 @@
-/*
-Template Name: Invoza - Bootstrap 4 Landing Page Tamplat
-Author: Themesdesign
-File: Main scss file
-*/
+
 /*******************************
 1.General
 2.Helper
 3.Navbar
 4.Hero section
-5.Testimonial
-6.Pricing
-7.Subscribe
 8.Footer
 9.Responsive
 ********************************/
@@ -123,7 +116,7 @@ p {
 }
 
 .bg-primary {
-  background-color: #2f55d4 !important;
+  background-color: #0b9444 !important;
 }
 
 .bg-soft-primary {
@@ -131,11 +124,11 @@ p {
 }
 
 .text-primary {
-  color: #2f55d4 !important;
+  color: #0b9444 !important;
 }
 
 .icon-dual-primary {
-  color: #2f55d4;
+  color: #0b9444;
   fill: rgba(47, 85, 212, 0.2);
 }
 
@@ -149,23 +142,23 @@ p {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.focus, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary .open > .dropdown-toggle.btn-primary {
-  -webkit-box-shadow: 0px 16px 31px -16px #2f55d4;
-          box-shadow: 0px 16px 31px -16px #2f55d4;
-  background: #294dc6;
-  border-color: #294dc6;
+  -webkit-box-shadow: 0px 16px 31px -16px #0b9444;
+          box-shadow: 0px 16px 31px -16px #0b9444;
+  background: #0b9444;
+  border-color: #0b9444;
 }
 
 .btn-outline-primary {
-  color: #2f55d4;
-  border-color: #2f55d4;
+  color: #0b9444;
+  border-color: #0b9444;
 }
 
 .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.focus, .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .btn-outline-primary .open > .dropdown-toggle.btn-primary {
-  -webkit-box-shadow: 0px 16px 31px -16px #2f55d4;
-          box-shadow: 0px 16px 31px -16px #2f55d4;
-  background: #294dc6;
-  border-color: #294dc6;
+  -webkit-box-shadow: 0px 16px 31px -16px #0b9444;
+          box-shadow: 0px 16px 31px -16px #0b9444;
+  background: #0b9444;
+  border-color: #0b9444;
 }
 
 .bg-success {
@@ -681,7 +674,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #2f55d4;
+  background-color: #0b9444;
   color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -717,11 +710,11 @@ p {
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link:hover, .navbar-custom .navbar-nav .nav-item .nav-link:active {
-  color: #2f55d4;
+  color: #0b9444;
 }
 
 .navbar-custom .navbar-nav .nav-item.active .nav-link {
-  color: #2f55d4;
+  color: #0b9444;
 }
 
 .navbar-custom .navbar-btn {
@@ -799,11 +792,11 @@ p {
 }
 
 .nav-sticky.navbar-custom .navbar-nav .nav-item .nav-link:hover, .nav-sticky.navbar-custom .navbar-nav .nav-item .nav-link:active {
-  color: #2f55d4;
+  color: #0b9444;
 }
 
 .nav-sticky.navbar-custom .navbar-nav .nav-item.active .nav-link {
-  color: #2f55d4;
+  color: #0b9444;
 }
 
 /******************
@@ -841,7 +834,7 @@ p {
 }
 
 .registration-form .form-control:focus {
-  border-color: #2f55d4;
+  border-color: #0b9444;
 }
 
 /*--- Hero 5 ---*/
@@ -886,7 +879,7 @@ p {
   height: 32px;
   line-height: 32px;
   background: rgba(47, 85, 212, 0.2);
-  color: #2f55d4;
+  color: #0b9444;
   border-radius: 50%;
   font-size: 20px;
 }
@@ -911,75 +904,16 @@ p {
 
 .testi-carousel .owl-dots .owl-dot.active span, .testi-carousel .owl-dots .owl-dot:hover span {
   background: #ffffff;
-  border: 2px solid #2f55d4;
+  border: 2px solid #0b9444;
 }
 
-/********** Clients ***********/
-.client-images img {
-  max-height: 94px;
-  width: auto !important;
-  margin: 10px auto;
-  opacity: 0.6;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
 
-.client-images img:hover {
-  opacity: 0.9;
-}
-
-/******************
-    6.Pricing
-*******************/
-.pricing-nav-tabs {
-  display: inline-block;
-  background-color: #ffffff;
-  -webkit-box-shadow: 0px 8px 35px 0px rgba(73, 80, 87, 0.05);
-          box-shadow: 0px 8px 35px 0px rgba(73, 80, 87, 0.05);
-  padding: 5px;
-  border-radius: 7px;
-}
-
-.pricing-nav-tabs li {
-  display: inline-block;
-}
-
-.pricing-nav-tabs li .nav-link {
-  border-radius: 7px;
-  color: #a0a9b1;
-  padding: .6rem 1.4rem;
-}
-
-.pricing-nav-tabs li .nav-link.active {
-  background-color: #2f55d4;
-}
-
-.pricing-plan {
-  max-width: 415px;
-  margin: 0px auto;
-  margin-top: 30px;
-}
-
-/******************
-    7.Subscribe
-*******************/
-.subscribe .form-control {
-  height: 46px;
-  border-radius: 7px;
-  font-size: 15px;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-.subscribe .form-control:focus {
-  border-color: #2f55d4;
-}
 
 /******************
     8.Footer
 *******************/
 .footer {
-  background-color: #0f1b42;
+  background-color: #fff;
   color: rgba(255, 255, 255, 0.5);
   padding-top: 80px;
   padding-bottom: 40px;
@@ -1028,7 +962,7 @@ p {
     color: rgba(52, 58, 64, 0.9);
   }
   .navbar-custom .navbar-nav .nav-item.active .nav-link {
-    color: #2f55d4;
+    color: #0b9444;
   }
   .navbar-custom .navbar-btn {
     margin-left: 0px;
@@ -1055,4 +989,3 @@ p {
     display: none;
   }
 }
-/*# sourceMappingURL=style.css.map */

@@ -101,7 +101,6 @@ class Footer extends Component {
             </Row>
           </Container>
         </footer>
-        {/* Render footer links */}
         <FooterLinks />
       </>
     );
