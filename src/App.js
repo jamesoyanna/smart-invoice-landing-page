@@ -1,5 +1,5 @@
 import React from "react"
-import AppContainer from "./pages/AppContainer";
+import Home from "./pages/Home";
 import { Redirect, Route,Switch } from "react-router-dom";
 import NavBar from "./components/Navbar/NavBar";
 import "./App.css";
@@ -12,7 +12,7 @@ function App() {
     <>
       <NavBar />
       <Switch>
-        <Route path="/" component={AppContainer} />
+        <Route path="/" component={Home} />
         <Redirect from="/" exact to="home" />
       </Switch>
     </>
