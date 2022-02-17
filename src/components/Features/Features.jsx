@@ -3,7 +3,7 @@ import { Container, Row, Col, Card, CardBody} from "reactstrap";
 
 import FeatureBox from "./FeatureBox";
 //Import Images
-import featureImg from "../../assets/images/askQuestion/faetures.svg";
+import featureImg from "../../assets/images/features.svg";
 
 const Features = () => {
 
