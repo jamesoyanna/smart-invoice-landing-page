@@ -1,12 +1,12 @@
-import React, { Component } from "react";
+import React from 'react';
 import { Container, Row, Col } from "reactstrap";
 //Import Images
 import bg1 from "../../assets/images/bg-1.png";
 import homeImg from "../../assets/images/invoice.png";
-class BannerSection extends Component {
-  render() {
-    return (
-      <>
+
+const Bannersection = () => {
+  return (
+    <>
         <section
           className="hero-section"
           id="home"
@@ -45,8 +45,7 @@ class BannerSection extends Component {
           </Container>
         </section>
       </>
-    );
-  }
+  );
 }
 
-export default BannerSection;
+export default Bannersection;

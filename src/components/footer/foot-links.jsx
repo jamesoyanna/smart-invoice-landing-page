@@ -1,18 +1,13 @@
-import React, { Component } from "react";
+import React from 'react';
 import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 
 //Import Images
 import logo from "../../assets/images/logo/smart-lgo.png";
 
-
- 
-
-
-class FooterLinks extends Component {
-  render() {
-    return (
-      <>
+const FootLinks = () => {
+  return (
+    <>
         <section style={{background: "#fff"}} className="py-3">
           <Container>
             <Row>
@@ -32,8 +27,6 @@ class FooterLinks extends Component {
           </Container>
         </section>
       </>
-    );
-  }
+  );
 }
-
-export default FooterLinks;
+export default FootLinks;
