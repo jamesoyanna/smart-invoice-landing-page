@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card, CardBody} from "reactstrap";
 
-import AskQuestionBox from "./FeatureBox";
+import FeatureBox from "./FeatureBox";
 //Import Images
 import featureImg from "../../assets/images/askQuestion/faetures.svg";
 
@@ -31,7 +31,7 @@ const Features = () => {
                         <Row> 
                             <Col lg={5}>
                                 <div>
-                                <AskQuestionBox  title="Amazing features you can use" renderQuestions={state.questions} desc="Your Business. Your Clients. One Free, Powerful Invoicing Platform." link="#" />
+                                <FeatureBox  title="Amazing features you can use" renderQuestions={state.questions} desc="Your Business. Your Clients. One Free, Powerful Invoicing Platform." link="#" />
                                 </div>
                             </Col>
                             <Col lg={7} sm={8} className="ml-lg-auto">
