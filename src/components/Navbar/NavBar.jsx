@@ -26,7 +26,7 @@ import LogoImg from "../../assets/images/logo/smart-lgo.png";
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto"></Nav>
             <Nav>
-                 <a style={{ borderRadius: "20px" }} className="btn btn-primary mt-2 mr-2" href="https://app-smart-invoice.netlify.app/login" target="_blank" rel="noreferrer noopener">
+                 <a style={{ borderRadius: "20px" }} className="btn btn-primary mt-2 mr-2" href="https://smart-invoice.herokuapp.com/" target="_blank" rel="noreferrer noopener">
                     Geting Started
                  </a>
             </Nav>
